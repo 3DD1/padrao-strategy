@@ -23,5 +23,19 @@ public class Aeroporto {
         this.aeroportoDestino = aviao.criaNovaViagem(new DestinoPortugal());
     }
 
+    public void viagemParaAlemanha(String nomeDaEmpresa1, String numeroAviao1, String aeroportoDestino1){
+        Aviao aviao = new Aviao(nomeDaEmpresa1, numeroAviao1, aeroportoDestino1);
+        this.nomeDaEmpresa = aviao.criaNovaViagem(new DestinoAlemanha());
+        this.numeroAviao = aviao.criaNovaViagem(new DestinoAlemanha());
+        this.aeroportoDestino = aviao.criaNovaViagem(new DestinoAlemanha());
+    }
+    public void viagemParaAJapao(String nomeDaEmpresa1, String numeroAviao1, String aeroportoDestino1){
+        Aviao aviao = new Aviao(nomeDaEmpresa1, numeroAviao1, aeroportoDestino1);
+        this.nomeDaEmpresa = aviao.criaNovaViagem(new DestinoJapao());
+        this.numeroAviao = aviao.criaNovaViagem(new DestinoJapao());
+        this.aeroportoDestino = aviao.criaNovaViagem(new DestinoJapao());
+    }
+
+
 
 }
