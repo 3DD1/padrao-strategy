@@ -4,10 +4,10 @@ public class Aviao {
     private int idAviao;
 */
     public Aviao(String idNome) {
-        this.idNome = idNome;/*
-        this.idAviao = idAviao;*/
+        this.idNome = idNome;
+      //  this.idAviao = idAviao;
     }
-    public String criaDestino(Destino destino){
+    public String nomeEmpresa(Destino destino){
         return destino.nomeEmpresa(idNome);
     }
 }

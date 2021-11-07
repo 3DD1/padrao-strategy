@@ -1,6 +1,6 @@
 public class Aeroporto {
     private String nome;
-    private int numeroDoAviao;
+    //private int numeroDoAviao;
 
     public String getNome() {
         return nome;
